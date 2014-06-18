@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+process.title = 'elemez2csv';
+
+var elemez2csv = require('../lib/elemez2csv');
+
+return elemez2csv(process.argv, function(e) {
+
+  if(e) {
+    console.error(e);
+    return process.exit(1);
+  }
+  return process.exit(0);
+});
+

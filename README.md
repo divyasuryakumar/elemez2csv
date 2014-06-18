@@ -1,4 +1,3 @@
-elemez2csv
-==========
+# elemez2csv
 
-Use the elemez raw data endpoint to extract data to CSV
+Use the elemez raw data endpoint to extract data to CSV.

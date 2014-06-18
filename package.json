@@ -1,0 +1,29 @@
+{
+  "name": "elemez2csv",
+  "version": "0.0.0",
+  "description": "Use the elemez raw data endpoint to extract data to CSV",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/B2MSolutions/elemez2csv.git"
+  },
+  "author": "B2M Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B2MSolutions/elemez2csv/issues"
+  },
+  "bin": {
+    "elemez2csv": "bin/elemez2csv"
+  },
+  "homepage": "https://github.com/B2MSolutions/elemez2csv",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "minimist": "^0.1.0",
+    "mocha": "^1.20.1"
+  },
+  "dependencies": {
+    "json2csv-stream": "^0.1.2"
+  }
+}
