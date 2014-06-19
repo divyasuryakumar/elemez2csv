@@ -1,6 +1,6 @@
 {
   "name": "elemez2csv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Use the elemez raw data endpoint to extract data to CSV",
   "scripts": {
     "test": "mocha"
@@ -30,13 +30,13 @@
   "homepage": "https://github.com/B2MSolutions/elemez2csv",
   "devDependencies": {
     "chai": "^1.9.1",
-    "minimist": "^0.1.0",
     "mocha": "^1.20.1",
     "sinon": "^1.10.2"
   },
   "dependencies": {
     "async": "^0.9.0",
     "lodash": "^2.4.1",
+    "minimist": "^0.1.0",
     "request": "^2.36.0"
   }
 }
