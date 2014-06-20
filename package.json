@@ -1,6 +1,6 @@
 {
   "name": "elemez2csv",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use the elemez raw data endpoint to extract data to CSV",
   "scripts": {
     "test": "mocha"

@@ -75,7 +75,8 @@ describe('elemez2csv', function() {
             token: 'TOKEN'
           },
           qs: {
-            lastkey: 'X'
+            lastkey: 'X',
+            limit: 1000
           }
         };
         expect(request.get.args[1][0]).to.deep.equal(options1);
