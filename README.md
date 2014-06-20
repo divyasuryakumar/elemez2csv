@@ -16,9 +16,14 @@ npm install -g elemez2csv
 ## Usage
 
 ```shell
-elemez2csv --token <YOURTOKEN>
+elemez2csv --token <YOURTOKEN> [--types <TYPES>] [--data <ADDITIONALDATAFIELDS>]
 ```
 
+Examples:
+```shell
+elemez2csv --token aaaabbbbcccc
+elemez2csv --token aaaabbbbcccc --types battery-charging-on,battery-charging-off --data level
+```
 
 ## Contributors
 Pair programmed by [Roy Lines](http://roylines.co.uk) and [Ivan Bokii](https://github.com/ivanbokii).
